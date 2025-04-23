@@ -2,6 +2,7 @@ import Menu from "@/components/Menu";
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
+import AdminPage from "./admin/page";
 export default function DashboardLayout({
     children,
   }: Readonly<{
@@ -21,6 +22,7 @@ export default function DashboardLayout({
 {/* Right */}
 <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#F7F9FA] overflowX-scroll">
 <Navbar/>
+<AdminPage/>
 </div>
     </div>
     )

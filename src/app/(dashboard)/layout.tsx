@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import AdminPage from "./admin/page";
+import TeacherListPage from "./list/teachers/page";
 export default function DashboardLayout({
     children,
   }: Readonly<{
@@ -17,12 +18,14 @@ export default function DashboardLayout({
 <span className="hidden lg:block">Juhi AI</span>
 </Link>
 <Menu/>
+{/* <TeacherListPage/> */}
 </div>
 
 {/* Right */}
 <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#F7F9FA] overflowX-scroll">
 <Navbar/>
-<AdminPage/>
+{/* <AdminPage/> */}
+{children}
 </div>
     </div>
     )

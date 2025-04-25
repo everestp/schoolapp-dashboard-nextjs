@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import BigCalendar from "@/components/BigCalender";
+import Announcements from "@/components/Announcements";
 const SingleTeacherPage = () => {
   return (
     <div className="flex-1 p-4 flex flex-col gap-4 xl:flex-row">
@@ -94,7 +95,12 @@ const SingleTeacherPage = () => {
         </div>
       </div>
       {/* RIGHT */}
-      <div className="w-full xl:w-1/3">rrIGHT</div>
+      <div className="w-full xl:w-1/3">
+      <div className="text-xl font-semibold">
+        Shortcuts
+      </div>
+      <Announcements/>
+      </div>
     </div>
   );
 };

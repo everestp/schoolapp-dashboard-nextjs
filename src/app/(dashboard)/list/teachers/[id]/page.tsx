@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import BigCalendar from "@/components/BigCalender";
 import Announcements from "@/components/Announcements";
+import Performance from "@/components/Performance";
+import Link from "next/link";
 const SingleTeacherPage = () => {
   return (
     <div className="flex-1 p-4 flex flex-col gap-4 xl:flex-row">
@@ -95,10 +97,19 @@ const SingleTeacherPage = () => {
         </div>
       </div>
       {/* RIGHT */}
-      <div className="w-full xl:w-1/3">
+      <div className="w-full xl:w-1/3  flex flex-col gap-4">
       <div className="text-xl font-semibold">
-        Shortcuts
+       <h1 className="text-xl font-semibold">Shortcuts</h1>
+       <div className="mt-4 flex gap-4 flex-wrap text-xs text-gray-500">
+        <Link className="p-3 rounded-md bg-lamaSky" href="/">Teacher's Classes</Link>
+        <Link className="p-3 rounded-md bg-lamaYellowLight" href="/">Teacher's Students</Link>
+        <Link className="p-3 rounded-md bg-lamaYellow" href="/">Teacher's Lessons</Link>
+        <Link className="p-3 rounded-md bg-lamaPurple" href="/">Teacher's Exams</Link>
+        <Link className="p-3 rounded-md bg-pink-50" href="/">Teacher's Assignment</Link>
+
+       </div>
       </div>
+    <Performance/>
       <Announcements/>
       </div>
     </div>

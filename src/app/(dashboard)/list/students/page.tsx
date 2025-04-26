@@ -83,7 +83,7 @@ const StudentListPage = () => {
             //     <Image src="/delete.png" alt="logo" height={16} width={16} />
                 
             //   </button>
-              <FormModal table={"student"} type={"delete"} id={item.id}/>
+              <FormModal table="student" type={"delete"} id={item.id}/>
 
             )
          }  
@@ -117,7 +117,7 @@ const StudentListPage = () => {
 //     <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
 // <Image src="/plus.png" alt="" height={14} width={14} />
 // </button>
- <FormModal type="create" table={"subject"} />
+ <FormModal type="create" table={"student"} />
 
 )}
           </div>

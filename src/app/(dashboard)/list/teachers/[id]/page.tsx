@@ -131,7 +131,7 @@ const SingleTeacherPage = () => {
         </div>
         {/* BOTTOM */}
         <div className="mt-4 bg-white rounded-md p-4 h-[800px]">
-          <h1>Teacher&apos;s Schedule</h1>
+          <h1>Teacher';s Schedule</h1>
           <BigCalendar />
         </div>
       </div>
@@ -141,19 +141,19 @@ const SingleTeacherPage = () => {
           <h1 className="text-xl font-semibold">Shortcuts</h1>
           <div className="mt-4 flex gap-4 flex-wrap text-xs text-gray-500">
             <Link className="p-3 rounded-md bg-lamaSkyLight" href="/">
-              Teacher&apos;s Classes
+              Teacher's Classes
             </Link>
             <Link className="p-3 rounded-md bg-lamaPurpleLight" href="/">
-              Teacher&apos;s Students
+              Teacher's Students
             </Link>
             <Link className="p-3 rounded-md bg-lamaYellowLight" href="/">
-              Teacher&apos;s Lessons
+              Teacher's Lessons
             </Link>
             <Link className="p-3 rounded-md bg-pink-50" href="/">
-              Teacher&apos;s Exams
+              Teacher's Exams
             </Link>
             <Link className="p-3 rounded-md bg-lamaSkyLight" href="/">
-              Teacher&apos;s Assignments
+              Teacher's Assignments
             </Link>
           </div>
         </div>
